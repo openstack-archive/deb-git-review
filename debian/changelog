@@ -1,0 +1,25 @@
+git-review (1.17-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Ghe Rivero <ghe.rivero@stackops.com>  Sat, 30 Jun 2012 09:57:59 +0200
+
+git-review (1.16-1) unstable; urgency=low
+
+  * New upstream release
+  * Updated section to "vcs". Closes: #668070
+  * Removed Vcs-* field from control. Closes: #668441
+
+ -- Ghe Rivero <ghe@debian.org>  Thu, 12 Apr 2012 11:52:11 +0200
+
+git-review (1.15-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Ghe Rivero <ghe.rivero@stackops.com>  Fri, 23 Mar 2012 08:28:39 +0100
+
+git-review (1.12-1) unstable; urgency=low
+
+  * Initial Debian Packaging
+
+ -- Ghe Rivero <ghe.rivero@stackops.com>  Thu, 01 Mar 2012 09:30:36 +0100

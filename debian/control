@@ -1,0 +1,13 @@
+Source: git-review
+Section: vcs
+Priority: extra
+Maintainer: Ghe Rivero <ghe.rivero@stackops.com>
+Build-Depends: debhelper (>= 8.0.0), python, python-setuptools
+Standards-Version: 3.9.3
+Homepage: https://github.com/openstack-ci/git-review
+
+Package: git-review
+Architecture: all
+Depends: git, python, python-argparse, ${python:Depends}, ${misc:Depends}
+Description: git command for submitting branches to Gerrit
+ git-review is a tool that helps submitting git branches to gerrit for review.
