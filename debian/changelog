@@ -1,3 +1,11 @@
+git-review (1.21-1) unstable; urgency=low
+
+  * New upstream release.
+  * Added gbp.conf
+  * Updated maintainer mail
+
+ -- Ghe Rivero <ghe@debian.org>  Tue, 09 Apr 2013 10:52:23 -0400
+
 git-review (1.17-1) unstable; urgency=low
 
   * New upstream release
