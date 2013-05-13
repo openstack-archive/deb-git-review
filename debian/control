@@ -4,7 +4,7 @@ Priority: extra
 Maintainer: PKG OpenStack <openstack-devel@lists.alioth.debian.org>
 Uploaders: Ghe Rivero <ghe@debian.org>
 Build-Depends: debhelper (>= 8.0.0), python, python-setuptools
-Standards-Version: 3.9.3
+Standards-Version: 3.9.4
 Homepage: https://launchpad.net/git-review
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/git-review.git;a=summary
 Vcs-Git: git://anonscm.debian.org/openstack/git-review.git
