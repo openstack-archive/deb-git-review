@@ -1,3 +1,10 @@
+git-review (1.21-4) UNRELEASED; urgency=low
+
+  * Fixed debian/copyright and debian/control source and homepage URL. Thanks
+    to Laurent Bigonville for reporting (Closes: #700394).
+
+ -- Thomas Goirand <zigo@debian.org>  Mon, 27 May 2013 11:17:49 +0800
+
 git-review (1.21-3) unstable; urgency=low
 
   * Bumped debian policy verstion to 3.9.4
