@@ -1,7 +1,13 @@
-git-review (1.21-4) UNRELEASED; urgency=low
+git-review (1.21-4) unstable; urgency=low
 
   * Fixed debian/copyright and debian/control source and homepage URL. Thanks
     to Laurent Bigonville for reporting (Closes: #700394).
+  * Added myself as uploader.
+  * Now depends on openstack-pkg-tools to have the debian/rules facility for
+    generating the orig.tar.xz.
+  * Ran wrap-and-sort.
+  * Rearanged a bit debian/copyright.
+  * Now using compat and debhelper 9.
 
  -- Thomas Goirand <zigo@debian.org>  Mon, 27 May 2013 11:17:49 +0800
 

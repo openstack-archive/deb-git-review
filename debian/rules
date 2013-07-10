@@ -1,7 +1,8 @@
 #!/usr/bin/make -f
 
-# Uncomment this to turn on verbose mode.
-#export DH_VERBOSE=1
+UPSTREAM_GIT = git://github.com/openstack-infra/git-review.git
+
+include /usr/share/openstack-pkg-tools/pkgos.make
 
 WITH_PYTHON2 = $(shell test -f /usr/bin/dh_python2 && echo "--with python2")
 
