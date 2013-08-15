@@ -1,3 +1,9 @@
+git-review (1.23-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Thomas Goirand <zigo@debian.org>  Thu, 15 Aug 2013 19:55:36 +0200
+
 git-review (1.21-4) unstable; urgency=low
 
   * Fixed debian/copyright and debian/control source and homepage URL. Thanks
