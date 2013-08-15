@@ -1,6 +1,7 @@
 git-review (1.23-1) unstable; urgency=low
 
   * New upstream release.
+  * Upstream renamed README.md into README.rst, updated debian/docs.
 
  -- Thomas Goirand <zigo@debian.org>  Thu, 15 Aug 2013 19:55:36 +0200
 
