@@ -2,6 +2,7 @@ git-review (1.23-2) unstable; urgency=medium
 
   * Added Retrieve-remote-pushurl-independently-of-user-s-local.patch. Thanks
     to Matteo Cypriani <mcy@lm7.fr> for the report (Closes: #751127).
+  * Fixed format 1.0 URL for debian/copyright.
 
  -- Thomas Goirand <zigo@debian.org>  Wed, 11 Jun 2014 11:06:44 +0800
 
