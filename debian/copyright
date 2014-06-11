@@ -5,7 +5,7 @@ Source: git://github.com/openstack-infra/git-review.git
 Files: debian/*
 Copyright: (c) 2012, Kiall Mac Innes <kiall@managedit.ie>
            (c) 2012, Ghe Rivero <ghe@debian.org>
-           (c) 2013, Thomas Goirand <zigo@debian.org>
+           (c) 2013-2014, Thomas Goirand <zigo@debian.org>
 License: Apache-2.0
 
 Files: *

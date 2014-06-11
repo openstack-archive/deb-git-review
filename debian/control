@@ -14,3 +14,5 @@ Architecture: all
 Depends: git, python, python-argparse, ${misc:Depends}, ${python:Depends}
 Description: git command for submitting branches to Gerrit
  git-review is a tool that helps submitting git branches to gerrit for review.
+ It is used extensively for the development and maintenance of OpenStack, but
+ it can be used for any project using Gerrit.
