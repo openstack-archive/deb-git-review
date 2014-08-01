@@ -2,5 +2,12 @@ build
 dist
 git_review.egg-info
 MANIFEST
+AUTHORS
+ChangeLog
+.gerrit
+.testrepository
 .tox
-requirements.txt
+.venv
+*.egg
+*.egg-info
+*.pyc

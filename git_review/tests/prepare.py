@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-# Copyright (c) 2010-2011 OpenStack, LLC.
+# Copyright (c) 2013 Mirantis Inc.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,7 +13,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-import setuptools
+from git_review import tests
 
 
-setuptools.setup(setup_requires=['pbr'], pbr=True)
+def main():
+    helpers = tests.GerritHelpers()
+    helpers.init_dirs()
+    helpers.ensure_gerrit_war()
+    helpers.init_gerrit()
+
+if __name__ == "__main__":
+    main()
