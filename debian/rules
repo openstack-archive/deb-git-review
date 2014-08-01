@@ -1,8 +1,9 @@
 #!/usr/bin/make -f
 
 UPSTREAM_GIT = git://github.com/openstack-infra/git-review.git
-
 include /usr/share/openstack-pkg-tools/pkgos.make
+
+export OSLO_PACKAGE_VERSION=$(VERSION)
 
 WITH_PYTHON2 = $(shell test -f /usr/bin/dh_python2 && echo "--with python2")
 
