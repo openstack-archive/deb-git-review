@@ -1,5 +1,9 @@
 #!/usr/bin/make -f
 
+UPSTREAM_GIT = git://github.com/openstack-infra/git-review.git
+include /usr/share/openstack-pkg-tools/pkgos.make
+export OSLO_PACKAGE_VERSION=$(VERSION)
+
 export PYBUILD_NAME=git-review
 %:
 	dh $@ --with python2 --buildsystem=pybuild

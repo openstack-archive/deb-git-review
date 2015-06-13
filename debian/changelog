@@ -1,3 +1,12 @@
+git-review (1.25.0-2) UNRELEASED; urgency=medium
+
+  * Re-added missing in debian/rules:
+    - export OSLO_PACKAGE_VERSION=$(VERSION) (needed for pbr version to work)
+    - depends on openstack-pkg-tools to have this working.
+  * Ran wrap-and-sort -t -a.
+
+ -- Thomas Goirand <zigo@debian.org>  Sat, 13 Jun 2015 10:07:38 +0200
+
 git-review (1.25.0-1) unstable; urgency=medium
 
   * New upstream version.
