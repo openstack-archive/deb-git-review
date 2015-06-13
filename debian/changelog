@@ -6,6 +6,7 @@ git-review (1.25.0-2) unstable; urgency=medium
   * Ran wrap-and-sort -t -a.
   * Removed not-needed version in depends (already in Jessie). Also removed
     python-argparse as depends, and added it it pydist-overrides.
+  * Added extend-diff-ignore = "^[^/]*[.]egg-info/" to d/source/options.
 
  -- Thomas Goirand <zigo@debian.org>  Sat, 13 Jun 2015 10:07:38 +0200
 
