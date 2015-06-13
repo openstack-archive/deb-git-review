@@ -2,7 +2,7 @@ Source: git-review
 Section: vcs
 Priority: extra
 Maintainer: PKG OpenStack <openstack-devel@lists.alioth.debian.org>
-Uploaders: Ghe Rivero <ghe@debian.org>, Thomas Goirand <zigo@debian.org>
+Uploaders: Ghe Rivero <ghe@debian.org>, Thomas Goirand <zigo@debian.org>, Clint Adams <clint@debian.org>
 Build-Depends: debhelper (>= 9),
                openstack-pkg-tools,
                python-all,
