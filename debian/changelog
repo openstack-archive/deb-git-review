@@ -1,4 +1,4 @@
-git-review (1.25.0-2) UNRELEASED; urgency=medium
+git-review (1.25.0-2) unstable; urgency=medium
 
   * Re-added missing in debian/rules:
     - export OSLO_PACKAGE_VERSION=$(VERSION) (needed for pbr version to work)
