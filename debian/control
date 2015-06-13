@@ -8,9 +8,9 @@ Uploaders: Ghe Rivero <ghe@debian.org>,
 Build-Depends-Indep: debhelper (>= 9),
                      dh-python,
                      openstack-pkg-tools,
-                     python-all (>= 2.6.6-3),
+                     python-all,
                      python-pbr,
-                     python-setuptools (>= 0.6b3),
+                     python-setuptools,
 Standards-Version: 3.9.6
 Homepage: http://docs.openstack.org/infra/git-review/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/git-review.git;a=summary
@@ -19,7 +19,6 @@ Vcs-Git: git://anonscm.debian.org/openstack/git-review.git
 Package: git-review
 Architecture: all
 Depends: git,
-         python-argparse,
          ${misc:Depends},
          ${python:Depends},
 Description: git command for submitting branches to Gerrit
