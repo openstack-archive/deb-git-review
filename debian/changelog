@@ -1,3 +1,10 @@
+git-review (1.25.0-1) unstable; urgency=medium
+
+  * New upstream version.
+  * Modernize packaging.
+
+ -- Clint Adams <clint@debian.org>  Fri, 12 Jun 2015 23:27:02 -0400
+
 git-review (1.24-2) unstable; urgency=medium
 
   * Now packaging the man page (Closes: #771049).
