@@ -1,6 +1,7 @@
 git-review (1.25.0-3) UNRELEASED; urgency=medium
 
   * Fixed VCS URLs (https).
+  * Fixed typo in d/changelog.
 
  -- Ondřej Nový <novy@ondrej.org>  Sun, 28 Feb 2016 15:25:35 +0100
 
@@ -11,7 +12,7 @@ git-review (1.25.0-2) unstable; urgency=medium
     - depends on openstack-pkg-tools to have this working.
   * Ran wrap-and-sort -t -a.
   * Removed not-needed version in depends (already in Jessie). Also removed
-    python-argparse as depends, and added it it pydist-overrides.
+    python-argparse as depends, and added it as pydist-overrides.
   * Added extend-diff-ignore = "^[^/]*[.]egg-info/" to d/source/options.
 
  -- Thomas Goirand <zigo@debian.org>  Sat, 13 Jun 2015 10:07:38 +0200
