@@ -1,0 +1,12 @@
+Code-Review+2: yolanda.robla <yroblamo@redhat.com>
+Code-Review+1: Cedric Brandily <zzelle@gmail.com>
+Code-Review+1: Khai Do <zaro0508@gmail.com>
+Code-Review+1: Ian Cordasco <ian.cordasco@rackspace.com>
+Code-Review+2: Jeremy Stanley <fungi@yuggoth.org>
+Workflow+1: Jeremy Stanley <fungi@yuggoth.org>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Fri, 01 Jul 2016 13:50:02 +0000
+Reviewed-on: https://review.openstack.org/326538
+Project: openstack/deb-git-review
+Branch: refs/heads/master

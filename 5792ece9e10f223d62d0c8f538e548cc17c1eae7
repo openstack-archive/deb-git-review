@@ -1,0 +1,14 @@
+Code-Review+2: yolanda.robla <yroblamo@redhat.com>
+Code-Review+1: Nate Johnston <openstacknate@gmail.com>
+Code-Review+1: Khai Do <zaro0508@gmail.com>
+Code-Review+1: Clint Adams <clint@gcfm.net>
+Code-Review+1: Ricardo Carrillo Cruz <ricardo.carrillo.cruz@gmail.com>
+Code-Review+1: Thanh Ha <zxiiro@gmail.com>
+Code-Review+2: Jeremy Stanley <fungi@yuggoth.org>
+Workflow+1: Jeremy Stanley <fungi@yuggoth.org>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Fri, 26 Aug 2016 16:15:11 +0000
+Reviewed-on: https://review.openstack.org/270410
+Project: openstack/deb-git-review
+Branch: refs/heads/master
