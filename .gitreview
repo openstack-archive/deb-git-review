@@ -1,4 +1,5 @@
 [gerrit]
 host=review.openstack.org
 port=29418
-project=openstack-infra/git-review.git
+project=openstack/deb-git-review.git
+defaultbranch=debian/newton
