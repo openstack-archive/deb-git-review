@@ -5,7 +5,7 @@ Priority: extra
 Uploaders: Ghe Rivero <ghe@debian.org>,
            Thomas Goirand <zigo@debian.org>,
            Clint Adams <clint@debian.org>,
-Build-Depends-Indep: debhelper (>= 9),
+Build-Depends-Indep: debhelper (>= 10),
                      dh-python,
                      openstack-pkg-tools,
                      python-all,
